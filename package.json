@@ -1,0 +1,32 @@
+{
+  "name": "Tasky",
+  "version": "0.1.0",
+  "description": "A simple RESTful task management API built with NodeJS and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:martinsbe/Tasky.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "MongoDB"
+  ],
+  "author": "Brenno Martins",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/martinsbe/Tasky/issues"
+  },
+  "homepage": "https://github.com/martinsbe/Tasky#readme",
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11"
+  }
+}
